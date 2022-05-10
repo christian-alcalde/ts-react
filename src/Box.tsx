@@ -1,12 +1,5 @@
 import React from "react";
-
-interface IBox {
-  id: string;
-  width: number;
-  height: number;
-  backgroundColor: string;
-  remove(id: string): void;
-}
+import { IBox } from "./Interfaces";
 
 /** Colored box presentation
  *
